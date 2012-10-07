@@ -4,5 +4,6 @@ class Cliente extends Persona{
 	Double saldo
 	String descipcion
     static constraints = {
+		saldo(blank:false)
     }
 }

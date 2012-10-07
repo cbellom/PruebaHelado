@@ -5,5 +5,6 @@ class Vendedor extends Persona{
 	String descripcion
 	
     static constraints = {
+		salario(blank:false)
     }
 }
