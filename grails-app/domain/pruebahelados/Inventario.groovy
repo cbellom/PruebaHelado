@@ -6,5 +6,10 @@ class Inventario {
 	int referencia
 	double precio
     static constraints = {
+		nombre(blank:false)
+		cantidad(blank:false)
+		referencia(blank:false)
+		precio(blank:false)
+		
     }
 }

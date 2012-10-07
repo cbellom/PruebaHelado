@@ -7,5 +7,7 @@ class Helado {
 	Color corol
 	
     static constraints = {
+		sabor(blank:false)
+		
     }
 }
