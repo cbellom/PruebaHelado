@@ -9,5 +9,5 @@ class Helado {
     static constraints = {
 		sabor(blank:false)
 		
-    }
+	}
 }
